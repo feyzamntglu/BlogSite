@@ -1,0 +1,19 @@
+﻿
+@model BlogSite.Models.AuthorModel
+<div class="sidebar-widget mb-50 about-widget">
+    <div class="widget-title text-center">
+        <h4 class="title mb-30"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@Model.AuthorName</font></font></h4>
+    </div>
+    <div class="author-img text-center">
+        <img src="@Model.AuthorImage" alt="">
+    </div>
+    <div class="author-content text-center">
+        <span class="auth-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@Model.AuthorName</font></font></span>
+        <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@Model.AuthorAbout </font><font style="vertical-align: inherit;">Proin gravida nibh vel velit auctor aliquet. </font><font style="vertical-align: inherit;">Aenea vaita e</font></font></p>
+        <ul class="sidebar-social">
+            <li><a href="@Model.AuthorFacebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="@Model.AuthorTwitter"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="@Model.AuthorInstagram"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+    </div>
+</div>
